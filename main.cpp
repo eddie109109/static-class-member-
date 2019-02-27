@@ -82,3 +82,5 @@ int main() {
     display_num();
     return 0;
 }
+
+// you will the 0 as the first result and then 2, because you have created two objects
