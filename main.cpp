@@ -50,7 +50,7 @@ Player::Player(string nameValue, int xpValue, int healthValue)
 }
 
 Player::Player(const Player &source)
-:Player{name=source.name,xp = source.xp, health = source.health} {
+:Player{source.name,source.xp,source.health} {
     
 }
 
